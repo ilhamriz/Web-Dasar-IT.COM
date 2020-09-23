@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow';
+    /* font-family: 'Roboto'; */
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+h2{
+    color: #00a2c6;
+}
+h3{
+    color: #444444;
+}
+header{
+    display: inline;
+    color: white;
+}
+.jumbotron{
+    padding: 60px;
+    background-color: #142850;
+    text-align: center;
+    font-size: 20px;
+}
+nav{
+    background-color: #27496d;
+    padding: 16px 40px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 16px;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    font-weight: bold;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+.card{
+    /* max-width: 1000px; */
+    max-width: 100%;
+    background-color: #eaeaea;
+    padding: 8px 24px;
+    /* margin: 0 auto 32px auto; */
+    margin-bottom: 32px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 16px rgba(51, 51, 51, .2);
+}
+main img{
+    width: 100%;
+    /* max-height: 300px; */
+    object-fit: cover;
+    object-position: center;
+}
+main article p{
+    line-height: 24px;
+    text-align: justify;
+}
+
+.container-article{
+    width: 50%;
+    padding: 0 10px;
+    float: left;
+}
+.aside{
+    width: 50%;
+    padding: 0 10px;
+    float: left;
+}
+.aside article{    
+    padding: 8px 24px 24px 24px;
+}
+.tb-klasemen{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+th, td{
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+}
+tr:nth-child(n+2):hover{
+    cursor: default;
+    background-color: #eaeaea;
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #142850;
+}
